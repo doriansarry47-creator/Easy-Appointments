@@ -1,0 +1,36 @@
+# Application files
+/storage/cache/*
+!/storage/cache/.gitkeep
+/storage/logs/*
+!/storage/logs/.gitkeep
+/storage/sessions/*
+!/storage/sessions/.gitkeep
+/storage/uploads/*
+!/storage/uploads/.gitkeep
+/storage/backups/*
+!/storage/backups/.gitkeep
+
+# Configuration
+/config.php
+
+# Downloaded archive
+*.zip
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Composer
+/vendor/
+composer.lock
+
+# Node
+node_modules/
+package-lock.json
